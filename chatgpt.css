@@ -1,0 +1,35 @@
+.card-slider {
+    width: 300px;
+    overflow: hidden;
+  }
+  
+  .cards {
+    display: flex;
+    width: fit-content;
+    transition: transform 0.5s;
+  }
+  
+  .card {
+    flex: 0 0 300px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    margin: 0;
+  }
+  
+  .card p {
+    margin: 0;
+  }
+  
