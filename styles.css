@@ -154,7 +154,7 @@ html {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.3s ease-in-out;
  
-
+ 
   }
   .card:hover {
     
@@ -495,3 +495,45 @@ background-color: transparent;
     }
 
 }
+.web_card_image{
+
+width: 250px;
+height: 100px;
+
+
+}
+.flex_w_img{
+
+display: flex;
+justify-content: center;
+flex: 1;
+
+}
+.web_title{
+font-size: 35px;
+color: aqua;
+opacity: 1;
+
+}
+.ML_title{
+    font-size: 35px;
+    color: aqua;
+    opacity: 1;
+    
+    }
+  
+    .card1:hover{
+background-image: url("free.png");
+background-size: cover;
+
+    }
+    .card2:hover{
+        background-image: url("112.png");
+        background-size: cover;
+        color: black;
+            }
+            .card3:hover{
+                background-image: url("113.png");
+                background-size: cover;
+                
+                    }
