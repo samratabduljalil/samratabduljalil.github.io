@@ -16,7 +16,7 @@ nav {
     z-index: 1;
     display: flex;
 
-    justify-content: end;
+    justify-content: center;
 
     background-color: black;
     position: fixed;
