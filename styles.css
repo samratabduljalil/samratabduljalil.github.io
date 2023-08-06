@@ -76,6 +76,7 @@ section {
     background-repeat: no-repeat;
     position: relative;
     padding-top: 50px;
+   
 
     box-shadow: 0 0 20px aqua, 0 0 40px aqua;
 
@@ -224,9 +225,9 @@ margin-top: 18%;
 
 }
 #element{
-    text-shadow: 2px 2px 4px aqua;
+   
     font-size: 75px;
-    color: aqua;
+    color: rgb(238, 93, 9);
     text-align: center;
     opacity: .9;
 
