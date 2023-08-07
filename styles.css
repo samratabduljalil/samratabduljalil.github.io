@@ -12,7 +12,7 @@ body {
 
 
 nav {
-   
+
     z-index: 1;
     display: flex;
 
@@ -59,7 +59,8 @@ nav ul li a:hover {
     margin-top: 8.5px;
     transition: .45s;
 }
-nav ul li a:hover + #hover-sound{
+
+nav ul li a:hover+#hover-sound {
     display: inline-block;
 }
 
@@ -76,29 +77,29 @@ section {
     background-repeat: no-repeat;
     position: relative;
     padding-top: 50px;
-   
+
 
     box-shadow: 0 0 20px aqua, 0 0 40px aqua;
 
 }
 
 #About {
-    
- background-image: url('2 (2).jpg');
-background-size: cover;
-background-repeat: no-repeat;
-position: relative;
-box-shadow: 0 0 20px aqua, 0 0 40px aqua;
+
+    background-image: url('2 (2).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 0 20px aqua, 0 0 40px aqua;
 
 }
 
 #Project {
     padding-top: 50px;
-    background-image: url('2 (10).jpg');
+    background-image: url('2 (6).jpg');
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 0 20px aqua, 0 0 40px aqua;
-    }
+}
 
 
 #Services {
@@ -111,13 +112,13 @@ box-shadow: 0 0 20px aqua, 0 0 40px aqua;
 }
 
 #Contact {
-  
+
     background-image: url('2 (6).jpg');
 
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 0 20px aqua, 0 0 40px aqua;
-  
+
 }
 
 html {
@@ -128,41 +129,42 @@ html {
 .container {
     margin-top: 20px;
     display: flex;
- justify-content: center;
+    justify-content: center;
 
- 
- 
-    
+
+
+
 
 }
 
 .contain {
     display: grid;
-    
-    grid-template-columns: 1fr 1fr 1fr  ;
+
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
-   
+
 
 }
 
 .card {
     width: 270px;
-  height: 180px;
-  background-color: rgba(255, 255, 255, .05);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  transition: box-shadow 0.3s ease-in-out;
- 
- 
-  }
-  .card:hover {
-    
+    height: 180px;
+    background-color: rgba(255, 255, 255, .05);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+
+
+}
+
+.card:hover {
+
     box-shadow: 0 0 20px aqua, 0 0 40px aqua;
 
 
-  }
+}
 
 
 
@@ -170,7 +172,7 @@ html {
 #Project .WEB_text {
     display: flex;
     justify-content: center;
-    
+
     color: aqua;
     font-size: 35px;
 
@@ -194,38 +196,39 @@ html {
 }
 
 .flex_image {
-display: flex;
+    display: flex;
     position: absolute;
     object-fit: cover;
     z-index: 2;
     justify-content: end;
 }
 
-  h2 {
+h2 {
     color: #fff;
     font-size: 20px;
     margin-bottom: 10px;
-  }
-  
-  p {
+}
+
+p {
     color: #333;
-  }
-  
+}
 
 
-.CcCard{
 
-display: grid;
-grid-template-columns: 1fr 1fr;
+.CcCard {
 
-background-color:white;
-border-radius: 10px;
-height: 320px;
-margin-top: 18%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: white;
+    border-radius: 10px;
+    height: 320px;
+    margin-top: 18%;
 
 }
-#element{
-   
+
+#element {
+
     font-size: 75px;
     color: rgb(238, 93, 9);
     text-align: center;
@@ -237,7 +240,7 @@ margin-top: 18%;
     position: relative;
     width: 100%;
     height: 100vh;
-    
+
     overflow: hidden;
 }
 
@@ -249,41 +252,44 @@ margin-top: 18%;
     height: 100%;
     object-fit: cover;
 }
-.samflex{
+
+.samflex {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding: 20px;
 
 }
 
-.sam{
+.sam {
 
     border-radius: 130px;
     box-shadow: 0 0 20px black, 0 0 40px aqua;
-   
+
 
 
 
 }
-.sam:hover{
+
+.sam:hover {
     box-shadow: 0 0 20px aqua, 0 0 40px aqua;
-    
-}
-.ser_img{
-height: 20px;
-width: 20px;
-border-radius: 25px;
-justify-content: center;
-box-shadow: 0 0 20px black, 0 0 40px aqua;
 
 }
 
+.ser_img {
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+    justify-content: center;
+    box-shadow: 0 0 20px black, 0 0 40px aqua;
 
-.about_container{
+}
+
+
+.about_container {
 
     margin-top: 20px;
     display: flex;
- justify-content: center;
+    justify-content: center;
 
 
 
@@ -292,21 +298,24 @@ box-shadow: 0 0 20px black, 0 0 40px aqua;
 
 
 }
-.t{
+
+.t {
 
     color: aqua;
-    
-     }
-.about_contain{
-
-    display: grid;
-    
-    grid-template-columns: 1fr 1fr 1fr 1fr  ;
-    gap: 18px;
-   
 
 }
-.about_card{
+
+.about_contain {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+
+
+}
+
+.about_card {
     width: 300px;
     height: 270px;
     background-color: rgba(255, 255, 255, .05);
@@ -315,37 +324,39 @@ box-shadow: 0 0 20px black, 0 0 40px aqua;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease-in-out;
-  
+
 
 }
-.title{
+
+.title {
 
     color: aqua;
     font-weight: bolder;
     font-size: 25px;
     margin-top: 0px;
-   
+
 
 }
-.about_card:hover{
+
+.about_card:hover {
 
     box-shadow: 0 0 20px aqua, 0 0 40px aqua;
 
 }
 
-p{
-color:white;
-font-size: 21px;
-text-align: start;
-opacity: .6;
+p {
+    color: white;
+    font-size: 21px;
+    text-align: start;
+    opacity: .6;
 
 }
 
-.ser_container{
+.ser_container {
 
     margin-top: 20px;
     display: flex;
- justify-content: center;
+    justify-content: center;
 
 
 
@@ -354,23 +365,25 @@ opacity: .6;
 
 
 }
-.ser-{
+
+.ser- {
     color: rgb(151, 210, 210);
-opacity: .8;
+    opacity: .8;
 
 
 }
 
-.ser_contain{
+.ser_contain {
 
     display: grid;
-    
-    grid-template-columns: 1fr 1fr 1fr  ;
+
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 18px;
-   
+
 
 }
-.ser_card{
+
+.ser_card {
     width: 300px;
     height: 300px;
     background-color: rgba(255, 255, 255, .05);
@@ -380,103 +393,157 @@ opacity: .8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease-in-out;
 
-   
-
-}
-
-.service_text{
-
-color:aqua;
-font-size: 50px;
-display: flex;
-justify-content: center;
-
 
 
 }
-.contact_me{
-    color:aqua;
-font-size: 50px;
-display: flex;
-justify-content: center;
-padding: 50px;
+
+.service_text {
+
+    color: aqua;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+
+
+
 }
 
-.ser{
+.contact_me {
+    color: aqua;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.ser {
 
     display: flex;
     justify-content: center;
 }
 
 
-.C_container{
-   
-display: flex;
-justify-content: center;
+.C_container {
 
-}
-.C_contain{
-    
-display: grid;
-grid-template-columns: 1fr  ;
-gap: 20px;
+    display: flex;
+    justify-content: center;
 
 }
 
-.C_card{
+.C_contain {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+}
+
+.C_card {
     height: 290px;
     width: 500px;
-    background-color:transparent;
+    background-color: transparent;
 }
 
 
 
 
-.i_t{
-margin-top: 10px;
-height: 50px;
-width: 450px;
-background-color: transparent;
-color: white;
-font-size: 20px;
-border: 1px solid aqua;
-}
-
-
-
-.email{
+.i_t {
     margin-top: 10px;
     height: 50px;
     width: 450px;
     background-color: transparent;
     color: white;
-    
     font-size: 20px;
     border: 1px solid aqua;
-    }
+}
 
 
-.area{
+
+.email {
+    margin-top: 10px;
+    height: 50px;
+    width: 450px;
+    background-color: transparent;
+    color: white;
+
+    font-size: 20px;
+    border: 1px solid aqua;
+}
+
+
+.area {
     margin-top: 10px;
 
     height: 180px;
     width: 450px;
     background-color: transparent;
     color: white;
-    
+
     font-size: 20px;
     border: 1px solid aqua;
-    
-}
-.submit{
-    margin-top: 12%;
-   margin-left: 35%;
-   margin-right: 35%;
-height: 50px;
-width: 100px;
-background-color: transparent;
 
 }
+
+.submit {
+    margin-top: 12%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+
+}
+
+
+.web_card_image {
+
+    width: 250px;
+    height: 100px;
+
+
+}
+
+.flex_w_img {
+
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+}
+
+.web_title {
+    font-size: 35px;
+    color: aqua;
+    opacity: 1;
+
+}
+
+.ML_title {
+    font-size: 35px;
+    color: aqua;
+    opacity: 1;
+
+}
+
+.card1:hover {
+    background-image: url("free.png");
+    background-size: cover;
+
+}
+
+.card2:hover {
+    background-image: url("112.png");
+    background-size: cover;
+    color: black;
+}
+
+.card3:hover {
+    background-image: url("113.png");
+    background-size: cover;
+
+}
+
+
 
 @media screen and (min-width:0px) and (max-width:600px) {
 
@@ -489,52 +556,42 @@ background-color: transparent;
     }
 
     #Project .card {
-        height: 200px;
-        width: 200px;
-        background-color: black;
+        height: 250px;
+        width: 300px;
+
+        margin-bottom: 10px;
 
     }
 
-}
-.web_card_image{
+    section {
 
-width: 250px;
-height: 100px;
+        margin: 0px;
+        height: auto;
+        background-color: aliceblue;
+    }
+
+    .ser_contain {
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+        gap: 18px;
 
 
-}
-.flex_w_img{
+    }
 
-display: flex;
-justify-content: center;
-flex: 1;
+    .about_contain {
 
-}
-.web_title{
-font-size: 35px;
-color: aqua;
-opacity: 1;
+        display: grid;
 
-}
-.ML_title{
-    font-size: 35px;
-    color: aqua;
-    opacity: 1;
+        grid-template-columns: 1fr;
+        gap: 18px;
+
+
+    }
+    .about_card {
+       margin-bottom: 10px;
     
     }
-  
-    .card1:hover{
-background-image: url("free.png");
-background-size: cover;
 
-    }
-    .card2:hover{
-        background-image: url("112.png");
-        background-size: cover;
-        color: black;
-            }
-            .card3:hover{
-                background-image: url("113.png");
-                background-size: cover;
-                
-                    }
+}
